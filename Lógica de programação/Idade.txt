@@ -1,0 +1,30 @@
+using System;
+
+public class Program
+{
+public static void Main()
+{
+
+    Console.Write("Informe a idade: ");
+
+int idade = int.Parse(Console.ReadLine());
+
+ 
+if (idade >= 0 && idade <= 12)
+{
+Console.Write("Criança");
+    }
+          if (idade >= 13 && idade <= 17)
+ {
+   Console.Write("Adolescente");
+ }
+   else if (idade >= 18 && idade <= 64)
+{
+      Console.Write("Adulto");
+}
+       else
+{
+Console.Write("Idoso");
+}
+}
+}
